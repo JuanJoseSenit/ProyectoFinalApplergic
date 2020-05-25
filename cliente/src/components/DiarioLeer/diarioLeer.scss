@@ -1,0 +1,188 @@
+.select-language{
+    text-transform: uppercase;
+    width: 52%;
+    margin-left: 25%;
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: .4em 1.4em .3em .8em;
+    max-width: 100%; 
+    appearance: none;
+    border-style: none;
+    background-color: #fff;
+}
+
+.alergenos{
+    color: rgb(248, 73, 113);
+}
+
+.titulos{
+    width: 80%;
+    align-items: center;
+}
+
+.tituloDiario{
+    font-family: Montserrat-SemiBold;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.subtituloDiario{
+    font-size: 16px;
+    margin-left: 10%;
+    color: rgb(89, 95, 101);
+}
+
+.nombre{
+        font-family: Montserrat-SemiBold;
+        color: rgb(48, 53, 58);
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        margin-top: 20px;
+}
+.alergenos{
+        color: rgb(248, 73, 113);
+        font-size: 20px;
+        letter-spacing: 0px;
+}
+.fecha{
+        color: rgb(48, 53, 58);
+        font-size: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+}
+
+.nueProd{
+    color: rgb(48, 53, 58);
+    font-size: 20px;
+}
+
+.traductor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 86.6667%;
+    margin-top: 5%;
+    & .stepHeader {
+        margin-bottom: 5%;
+        width: 100%;
+        & table {
+            width: 100%;
+            & tbody tr {
+                & td {
+                    width: 33.333333%;
+                }
+                & .backLink {
+                    text-align: left;
+                }
+                & .stepReg {
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    & .datos{
+        margin-left: -1%;
+        width: 90%;
+    }
+    & .productoDiario{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        & .imagenDatos2{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            & .datosProductoDiario p{
+                color: rgb(168, 168, 168);
+                font-size: 14px;
+            }       
+            & .imagenProductoDiario {            
+                vertical-align: middle;
+                position: relative;
+                display: grid;
+                --columns: 3;
+                --rows: 3;
+                margin-left: -8%;
+                
+                & .noInfo{
+                    background-color: rgb(251, 210, 146);
+                    grid-row-start: 2;
+                    grid-row-end: 2;
+                    top: 17%;
+                }
+                & .okay{
+                    background-color: rgb(131, 216, 173);        
+                    top: 13%;
+                    grid-row-start: 1;
+                    grid-row-end: 1;
+                }
+                & .wrong{
+                    background-color: rgb(251, 146, 170);
+                    top: 30%;
+                    grid-row-start: 3;
+                    grid-row-end: 3;
+                }
+                & .simbolo{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    font-size: 100%;
+                    border-width: 0;
+                    left: 50%;
+                    position: absolute;
+                    z-index: 1;
+                    color: white;
+                    grid-column-start: 1;
+                    grid-column-end: 1;
+                }
+                
+                & .allMarcos{
+                    width: 100px;
+                    height: 100px;
+                    border-width: 6px;
+                    border-radius: 5px;
+                    border-style: solid;
+                    grid-column-start: 1;
+                    grid-row-start: 1;
+                    grid-column-end: span var(--columns);
+                    grid-row-end: span var(--rows);
+                    & img{
+                        width: 100%;
+                        height: auto;
+                    }       
+                }
+                & .frameOk{
+                    border-color: rgb(131, 216, 173);
+                }
+                & .frameNoInfo{
+                    border-color: rgb(251, 210, 146);
+                }
+                & .frameWrong{
+                    border-color: rgb(251, 146, 170);
+                }
+            }
+        }
+        & .ingredientesDiario{
+            margin-left: 3%;
+        }
+        & .ingredientesDiario p{
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+        }
+    }
+}
+

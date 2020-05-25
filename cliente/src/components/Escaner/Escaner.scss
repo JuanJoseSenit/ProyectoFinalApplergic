@@ -1,0 +1,88 @@
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 86.6666%;
+    margin-top: 10%;
+    & .stepHeader{
+        margin-bottom: 5%;
+        width:100%;
+        & table{
+            width:100%;
+            & tbody tr{
+                & td{
+                    width: 33.333333%;
+                }
+                & .backLink{
+                    text-align: left;
+                }
+                & .stepReg{
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon{
+                    text-align: right;
+                }
+            }
+        }
+    }
+    & .cuerpo{
+        display: flex;
+        flex-direction: column; 
+        height: 30%;
+        margin-bottom: 5%;
+        justify-content: space-between;
+        & .titulo{
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        & .tansolo{
+            font-size: 20px;
+            & .negrita{
+                font-weight: bold;
+            }
+        }
+    }
+    & #escaneando{
+        height: 250px;
+        width: 100%;
+        & img{
+            width: 70%;
+            margin-left: 5%;
+        }
+    }
+    & #buttons{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10%;
+        & .botonC{
+            display: flex;
+            flex-direction: column;
+            margin: 0 10%;
+            width: 15%;
+
+            & .icono{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 56px;    
+                width: 56px;
+                border-radius: 50%;
+                border: none;
+                font-size: 25px;
+                vertical-align: 50%;
+            }
+            & .iconoOn{
+                background-color: rgb(38,199,220);
+            }
+            & .iconoOff{
+                background-color: rgb(216,216,216);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,8 @@
+{
+    "api": {
+        "secret": "applergicos"
+    },
+    "db": {
+        "uri": "mongodb+srv://MilarquiEj0:Zandu17Iomedae&.@clustermilarqui-rywfk.mongodb.net/Applergic?retryWrites=true&w=majority"
+    }
+}

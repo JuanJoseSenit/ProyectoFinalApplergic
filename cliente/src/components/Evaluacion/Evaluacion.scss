@@ -1,0 +1,60 @@
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.All{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 86.666%;
+    height: 100%;
+    & .stepHeader {
+        margin-bottom: 5%;
+        width: 100%;
+        & table {
+            width: 100%;
+            & tbody tr {
+                & td {
+                    width: 33.333333%;
+                }
+                & .backLink {
+                    text-align: left;
+                }
+                & .stepReg {
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                & .rightIcon {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    & .Evaluacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10% 0 20% 0;
+        & figure{
+            margin: 5% 0;
+            & .icono{
+                width:232px;
+                height:232px;
+            }
+        }
+        & .allStars{
+            margin: 10% 0;
+        }
+        
+    }
+    
+}
+.bold{
+    font-weight: bolder;
+    font-size: 20px;
+}

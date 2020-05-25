@@ -1,0 +1,18 @@
+.Form{
+    & .formulario{
+        & .fotoLabel #image{
+            width:110px;
+            height:110px;
+            border-radius: 50%;
+        }
+        & .inputfile{
+            border-style:none;
+            width:0.1px;
+            height:0.1px;
+            opacity:0;
+            overflow:hidden;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}

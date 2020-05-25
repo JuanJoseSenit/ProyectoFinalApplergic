@@ -1,0 +1,15 @@
+Para ejecutar el proyecto:
+
+En la carpeta proyecto-applergic ejecutar
+	npm install
+
+En la carpeta cliente ejecutar
+	npm install
+
+En la carpeta servidor ejecutar
+	npm install
+
+Nos situamos en la carpeta raiz del proyecto (proyecto-applergic) y ejecutamos
+	npm start
+
+Y ya tenemos la app en funcionamiento

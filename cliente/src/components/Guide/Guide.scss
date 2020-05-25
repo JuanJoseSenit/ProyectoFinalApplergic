@@ -1,0 +1,52 @@
+.acerca_de{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    width: 86.6666%;
+    margin-top: 10%;
+    & .stepHeader{
+        margin-bottom: 5%;
+        width:100%;
+        & table{
+            width:100%;
+            & tbody tr{
+                & td{
+                    width: 33.333333%;
+                }
+                & .backLink{
+                    text-align: left;
+                }
+                & .stepReg{
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon{
+                    text-align: right;
+                }
+            }
+        }
+    }
+    & .logo{
+        width: 100%;
+        height: auto;
+    }
+    & .Integrantes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 10%;
+        & .Trabajador{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 5%;
+            & .subtitle{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+}

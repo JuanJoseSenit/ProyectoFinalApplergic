@@ -1,0 +1,100 @@
+#Mapa{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .opciones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 4%;
+        & .boton{
+            width: 80%;
+            margin:2% auto;
+            border: 0;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            background-color: #28bfd3;
+        }
+        & .div_select_boton{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 92%;
+            margin: auto;
+            & .tipo{
+                //margin-right: 20%;
+                background-color: #28bfd3; 
+                border: 0;
+                //border-radius: 10px;
+                padding: 1% 0;
+                width: 30vw;
+            }
+            & .tipo_distancia{
+                //margin-right: 20%;
+                background-color: #28bfd3; 
+                border: 0;
+                //border-radius: 10px;
+                padding: 1% 0;
+                width: 13vw;
+            }
+
+        } 
+    }
+       
+}
+.cabecera{
+    margin-top: 4%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 5%;
+    & .link{
+        color: grey;
+
+    }
+    & #colorRestaurante{
+        border-bottom: solid 2px#7fa7a6;
+        font-weight: bold;
+    }
+    & #colorComercio{
+        border-bottom: solid 2px#7fa7a6;
+        font-weight: bold;
+        
+    }
+}
+
+
+.nombre_restaurante_comercio{
+    text-align: center;
+}
+
+.pagina_inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .texto_pag_inicial{
+        width: 80%;
+        margin: 13vh auto 10vh auto;
+        font-family: Montserrat-Medium;
+        font-size: 22px;
+        text-align: center;
+        line-height: 26px;
+    }
+    & .img_responsive{
+        margin-top: 10vh;
+        max-width: 100%;
+        height: 100%;
+        
+    }
+}
+

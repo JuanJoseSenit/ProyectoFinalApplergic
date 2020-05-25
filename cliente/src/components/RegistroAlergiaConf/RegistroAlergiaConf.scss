@@ -1,0 +1,22 @@
+.Form{
+    & .bodyAlergias{
+        display:flex;
+        flex-flow:row wrap;
+        align-items: flex-start;
+        width:100%;
+        & .alergia{
+            border-width: 2px;
+            border-style: solid;
+            border-color: lightgrey;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin: 5px;
+        }
+        & .activeAlergia{
+            background-color: red;
+            color: white;
+            border-color: white;
+}
+    }
+
+}

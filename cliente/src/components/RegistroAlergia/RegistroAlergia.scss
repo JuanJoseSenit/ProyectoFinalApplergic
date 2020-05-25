@@ -1,0 +1,63 @@
+.Form{
+    & .headerAlergias{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        border: 1px solid red;
+        border-radius: 5%;
+        max-width:80%;
+        padding:10px;
+        margin-bottom: 5%;
+    }
+    & .bodyAlergias{
+        display:flex;
+        flex-direction: column;
+        & .alergiaLetra{
+            width:100%;
+            & .headLetra{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 10px 0;
+                & .topLink{
+                    font-weight: bold;
+                    font-size: 25px
+                }
+            }
+            & .alergiaPorLetra{
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                width:100%;
+                & .alergia{
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 20px;
+                    padding: 5px 10px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+.letra{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5%;
+    background-color: lightgrey;
+    color: white;
+}
+.inactiveAlergia{
+    border-color: lightgrey;
+}
+.activeAlergia{
+    background-color: red;
+    color: white;
+    border-color: white;
+}

@@ -1,0 +1,10 @@
+.allStars{
+    align-self: center;
+    margin-right: 5%;
+    & .boldStar{
+        font-weight: bolder;
+        color:gold;
+        font-size: 48px;
+        margin-right: 2%;
+    }
+}

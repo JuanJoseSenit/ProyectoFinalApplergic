@@ -1,0 +1,54 @@
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height:100%;
+    width:86.666%;
+    & .stepHeader{
+        margin-bottom: 5%;
+        width:100%;
+        & table{
+            width:100%;
+            & tbody tr{
+                & td{
+                    width: 33.333333%;
+                }
+                & .backLink{
+                    text-align: left;
+                }
+                & .stepReg{
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon{
+                    text-align: right;
+                }
+            }
+        }
+    }
+    & .Terminos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        & .Termino{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            & .bold{
+                font-weight: bold;
+            }
+        }
+    }
+}

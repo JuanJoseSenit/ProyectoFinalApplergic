@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_final",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm start --prefix cliente\" \"npm start --prefix servidor\"",
+    "dev": "concurrently  \"npm start --prefix cliente\" \"npm dev --prefix servidor\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "google-maps-react": "^2.0.2",
+    "google-translate": "^3.0.0",
+    "react-cookies": "^0.1.1"
+  }
+}

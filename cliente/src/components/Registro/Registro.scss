@@ -1,0 +1,101 @@
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10% 0;
+    width: 86.666%;
+    & .stepHeader {
+        margin-bottom: 5%;
+        width: 100%;
+        & table {
+            width: 100%;
+            & tbody tr {
+                & td {
+                    width: 33.333333%;
+                }
+                & .backLink {
+                    text-align: left;
+                }
+                & .stepReg {
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .Form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        & .overHead {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            font-weight: bold;
+            width: 90%;
+            margin: 0 0 5% 0;
+    
+            & .Title {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            & .subTitle {
+                font-size: 15px;
+            }
+        }
+        & .formulario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            & .input {
+                padding: 10% 0;
+                font-size: 20px;
+                border-style: none;
+                border-bottom: 1px solid blue;
+                &#inputNombre,#inputContrasena {
+                    font-weight: bold;
+                }
+                &#contactoNombre {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.smallLink{
+    color:lightskyblue;
+    margin:5px;
+    text-decoration: none;
+}
+.Link{
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    padding: 10px 20px;
+    margin-top: 10%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.inactiveButton{
+    background-color: lightgrey;
+}
+.activeButton{
+    background-color:#26c7dc;
+}
+.wrong{
+    border: 1px solid red
+}

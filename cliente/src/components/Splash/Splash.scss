@@ -1,0 +1,21 @@
+.pantalla_splash{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .figura_titulo{
+        align-items: center;
+        padding-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 20vh;
+    }
+    & .figura_logo{
+        align-items: center;
+        width: 100%;
+        
+        & .img_responsive{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

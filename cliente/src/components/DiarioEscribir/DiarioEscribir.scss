@@ -1,0 +1,147 @@
+.diarioEscribir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86.6667%;
+    margin-top: 30px;
+    & .stepHeader{
+        margin-bottom: 5%;
+        width:100%;
+        & table{
+            width:100%;
+            & tbody tr{
+                & td{
+                    width: 33.333333%;
+                }
+                & .backLink{
+                    text-align: left;
+                }
+                & .stepReg{
+                    font-size: 20px;
+                    font-weight: bold
+                }
+                & .rightIcon{
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+     
+
+    & .textoDiario2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+        text-align: center;
+        & .titulotext2{
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        & .muestra2 {
+            margin-top: 5%;
+        }
+    }
+
+    & .muestra2 {
+        .imagenProductoMuestra {            
+            text-align: -moz-center;
+            vertical-align: middle;
+            position: relative;
+            display: grid;
+            --columns: 3;
+            --rows: 3;
+            margin-left: 8px;
+            & .noInfo{
+                background-color: rgb(251, 210, 146);
+                grid-row-start: 2;
+                grid-row-end: 2;
+            }
+            & .okay{
+                background-color: rgb(131, 216, 173);        
+                top: -10%;
+                grid-row-start: 1;
+                grid-row-end: 1;
+            }
+            & .wrong{
+                background-color: rgb(251, 146, 170);
+                top: 32%;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+            & .simbolo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                font-size: 160%;
+                border-width: 0;
+                left: 19px;
+                position: absolute;
+                z-index: 1;
+                color: white;
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+            
+            & .allMarcos{
+                width: 160px;
+                height: 160px;
+                border-width: 6px;
+                border-radius: 5px;
+                border-style: solid;
+                grid-column-start: 1;
+                grid-row-start: 1;
+                grid-column-end: span var(--columns);
+                grid-row-end: span var(--rows);       
+            }
+            & .frameOk{
+                border-color: rgb(131, 216, 173);
+            }
+            & .frameNoInfo{
+                border-color: rgb(251, 210, 146);
+            }
+            & .frameWrong{
+                border-color: rgb(251, 146, 170);
+            }
+        }
+    }
+
+    & .cuadroBoton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        & .textarea2 {
+            padding-top: 0;
+            padding-left: 0;
+            height: 7em;
+            width: 100%;
+            border: 1px dotted rgb(38, 199, 220);
+            margin-top: 5%;
+            word-wrap: normal;
+            
+        }
+        & .botonDiaEscribir{
+            //width: 100px;
+            margin-top: 5%;
+            width: 80%;
+            max-width: 400px;
+            height: 60px;
+            padding: 10px 20px;
+            //margin-top: 10%;
+            margin-bottom: 20%;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+            font-family: Montserrat-Medium;
+            background: rgb(38, 199, 220);
+        }
+    }
+}    
+

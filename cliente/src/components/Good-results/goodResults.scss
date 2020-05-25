@@ -1,0 +1,211 @@
+.Escaner{
+    width:86.6667%;
+}
+
+.cabecera{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    & .atras{
+        margin-left: 20px;
+    }
+    & .equis{
+        margin-right: 20px;
+    }
+}
+
+.texto{
+    text-align: center;
+    & .resultado{
+        font-family: Montserrat-SemiBold;
+        font-size: 21px;
+        color: rgb(7, 15, 21);
+    
+    }
+    & .apto{
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: rgb(89, 95, 101);
+        margin-top: 10%;
+    }
+    
+}
+.imagen_botones{
+    //margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    & table { 
+        width: 100%;
+        & tbody tr{
+        width: 100%;
+            & .backLink{
+                width: 25%;
+            }
+            & .centro{
+                width: 50%;
+                & .imagenProducto {            
+                    text-align: -moz-center;
+                    vertical-align: middle;
+                    position: relative;
+                    display: grid;
+                    --columns: 3;
+                    --rows: 3;
+                    margin-left: 8px;
+                    & .noInfo{
+                        background-color: rgb(251, 210, 146);
+                        grid-row-start: 2;
+                        grid-row-end: 2;
+                    }
+                    & .okay{
+                        background-color: rgb(131, 216, 173);        
+                        top: -10%;
+                        grid-row-start: 1;
+                        grid-row-end: 1;
+                    }
+                    & .wrong{
+                        background-color: rgb(251, 146, 170);
+                        top: 32%;
+                        grid-row-start: 3;
+                        grid-row-end: 3;
+                    }
+                    & .simbolo{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        font-size: 160%;
+                        border-width: 0;
+                        left: 19px;
+                        position: absolute;
+                        z-index: 1;
+                        color: white;
+                        grid-column-start: 1;
+                        grid-column-end: 1;
+        
+                    }
+                    
+                    & .allMarcos{
+                        width: 160px;
+                        height: 160px;
+                        border-width: 6px;
+                        border-radius: 5px;
+                        border-style: solid;
+                        grid-column-start: 1;
+                        grid-row-start: 1;
+                        grid-column-end: span var(--columns);
+                        grid-row-end: span var(--rows);
+                        & img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }     
+                    }
+                    & .frameOk{
+                        border-color: rgb(131, 216, 173);
+                    }
+                    & .frameNoInfo{
+                        border-color: rgb(251, 210, 146);
+                    }
+                    & .frameWrong{
+                        border-color: rgb(251, 146, 170);
+                    }
+                }
+            }
+            & .three-buttons{
+                display: flex;
+                flex-direction: column;
+                margin-right: 10px;
+                margin-top: 15px;
+                width: 100%;
+                color: black;
+                    & .botones {
+                        font-size: 30px;
+                        margin-top: 20px;
+                    }
+                    & .icon-star-empty {
+                        height: 32px;
+                        //color: black;
+                        & .isNotFav{
+                            background-color: black;
+                        }
+                        & .isFav{
+                            background-color:rgb(38, 199, 220);
+                        }
+                    }
+            }
+        }
+    }
+}
+
+
+.div_cuadro_imagen{
+    margin-left: 23%;
+    position: relative;
+    & .nesquik{
+        position: absolute;
+        top:20px;
+        left: 25px;
+    }
+    .cuadro {
+        position: relative;
+        z-index: -1;
+    }
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    & .title{
+        font-family: Montserrat-SemiBold;
+        color: rgb(54, 56, 55);
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        margin-top: 20px;
+    }
+    & .marca{
+        font-family: Montserrat-SemiBold;
+        color: rgb(168, 168, 168);
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    & .ingredientes{
+        font-family: Montserrat-Medium;
+        color: rgb(168, 168, 168);
+        font-size: 11px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 20px;
+    }
+    
+}
+
+.Scann{
+    display: flex;
+    justify-content: center;
+
+    & .escanOtro {
+        width: 80%;
+        max-width: 400px;
+        height: 60px;
+        padding: 10px 20px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+        font-family: Montserrat-Medium;
+        background: rgb(38, 199, 220);
+    }
+}

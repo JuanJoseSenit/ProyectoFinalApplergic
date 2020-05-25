@@ -1,0 +1,148 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oopm44');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oopm44#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?oopm44') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?oopm44') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?oopm44##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x {
+  &:before {
+    content: $icon-x; 
+  }
+}
+.icon-filter {
+  &:before {
+    content: $icon-filter; 
+  }
+}
+.icon-google-translate {
+  &:before {
+    content: $icon-google-translate; 
+  }
+}
+.icon-smartphone {
+  &:before {
+    content: $icon-smartphone; 
+  }
+}
+.icon-interrogacion {
+  &:before {
+    content: $icon-interrogacion; 
+  }
+}
+.icon-compartir {
+  &:before {
+    content: $icon-compartir; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-pencil {
+  &:before {
+    content: $icon-pencil; 
+  }
+}
+.icon-book {
+  &:before {
+    content: $icon-book; 
+  }
+}
+.icon-files-empty {
+  &:before {
+    content: $icon-files-empty; 
+  }
+}
+.icon-barcode {
+  &:before {
+    content: $icon-barcode; 
+  }
+}
+.icon-qrcode {
+  &:before {
+    content: $icon-qrcode; 
+  }
+}
+.icon-lifebuoy {
+  &:before {
+    content: $icon-lifebuoy; 
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location; 
+  }
+}
+.icon-smartphone {
+  &:before {
+    content: $icon-smartphone; 
+  }
+} 
+.icon-user {
+  &:before {
+    content: $icon-user; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-star-empty {
+  &:before {
+    content: $icon-star-empty; 
+  }
+}
+.icon-star-full {
+  &:before {
+    content: $icon-star-full; 
+  }
+}
+.icon-cross {
+  &:before {
+    content: $icon-cross; 
+  }
+}
+.icon-checkmark2 {
+  &:before {
+    content: $icon-checkmark2; 
+  }
+}
+.icon-enter {
+  &:before {
+    content: $icon-enter; 
+  }
+}
+.icon-exit {
+  &:before {
+    content: $icon-exit; 
+  }
+}
+.icon-file-pdf {
+  &:before {
+    content: $icon-file-pdf; 
+  }
+}

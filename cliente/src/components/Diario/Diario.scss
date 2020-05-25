@@ -1,0 +1,65 @@
+.cabeceraDiario {
+    width: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    & .iconos{
+        font-size: 17px;
+    }
+}
+
+
+.titulos{
+    text-align: center;
+    & .tituloDiario{
+        width: 237px;
+        font-family: Montserrat-SemiBold;
+        font-size: 28px;
+        color: rgb(7, 15, 21);
+        height: 100px;
+        margin-left: 14%;
+    
+    }
+    & .subtituloDiario{
+        width: 335px;
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #595f65;
+        margin-top: 10%;
+        height: 65px;
+    }
+    
+}
+
+.Save{
+    display: flex;
+    justify-content: center;
+
+    & .guardar {
+        width: 80%;
+        max-width: 400px;
+        height: 60px;
+        padding: 10px 20px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+        font-family: Montserrat-Medium;
+        background: rgb(38, 199, 220);
+    }
+}
+
+.Generar{
+    text-align: center;
+    margin-top: -28px;
+    & .genInform{
+        color: rgb(38, 199, 220);
+        font-weight: bold;
+    }
+}
